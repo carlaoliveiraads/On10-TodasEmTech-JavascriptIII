@@ -11,8 +11,8 @@ de vocês para abstrair, supor os problemas e escrever uma possível solução.
 
 //---1.
 
-multiplicacao(a,b) {
-    a * b  
+function multiplicacao(a,b) {
+   return a * b  
 }
 
 //---2. 
@@ -31,26 +31,21 @@ for(x; x = 0; x+) {
 
 //---4. Deve exibir um alerta "oi gente" se o primeiro elemento for maior que o segundo
 
-if (frases > palavras) {
+if frases < palavras {
     alert("oi gente")
-} else{
-    alert("tchau gente")
+} else if {
+    alert ("tchau gente")
 }
 
 
 //---5. Deve exibir o valor da propriedade "sobrenome"
 
 
-const objeto = {
-  nome : "Jardinagem",
-  periodo : "manha" ,
-  professora : "Amanda",{sobrenome : Lopes"}
+let curso: {
+  nome = "Jardinagem";
+  periodo = "manha" ;
+  professora = "Amanda" {
+      sobrenome = "Lopes"
+  };
 }
-console.log(objeto.professora.sobrenome)
-
-const objeto = {
-  nome : "Jardinagem",
-  periodo : "manha" ,
-  professora : "Amanda",{sobrenome : Lopes"},
-  cor : ["azul","amarelo", "vermelho"]
-}
+console.log(professora.sobrenome)
