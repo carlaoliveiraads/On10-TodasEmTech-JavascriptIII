@@ -6,9 +6,12 @@
 Vamos revisar conceitos? Resposta as perguntas abaixo com as suas palavras: 
 
 ```
-1. O que é iteração?
+1. O que é iteração? 
+Realizar uma repetição
 2. Qual a diferença de uma function padrão e a arrow function?
+a sintaxe da arrow function é mais curta.
 3. Como funciona o método map()? 
+O método percorre elementos do array faz a interação e devolve novos elementos. 
 ```
 
 ### 2. Manipulando objetos 
