@@ -35,3 +35,15 @@ const users = [
 
   }
 */
+function tableItem(users) {
+  const tableItems = users.map((item) => {
+    return {
+      fullName: `${item.fullName.firstName} ${item.fullName.lastName}`,
+      genres: item.genres,
+      score: item.score,
+    };
+  });
+  return tableItems;
+}
+
+console.log(tableItem(users));

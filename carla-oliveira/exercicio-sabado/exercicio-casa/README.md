@@ -7,9 +7,16 @@ Vamos revisar conceitos? Resposta as perguntas abaixo com as suas palavras:
 
 ```
 1. O que é iteração?
+
+Ciclo de repetição, geralmente acontece quando cria-se uma estrutura de repetição no código , exemplo: for, while,etc.
+
 2. Qual a diferença de uma function padrão e a arrow function?
+
+A diferença está básicamente na sintáxi, mas o papel das duas é o mesmo. 
+
 3. Como funciona o método map()? 
 ```
+O método chama uma função callback para cada elemento e devolve um novo array com a mesma quantidade de itens.
 
 ### 2. Manipulando objetos 
 O desafio está no `script.js` e consiste em manipular uma array de objetos, juntando alguns conceitos que revisamos hoje. O exercício não é fácil e por isso, tenha calma na resolução. Pesquise e utilize todos os links da referência para chegar a uma solução possível. 
