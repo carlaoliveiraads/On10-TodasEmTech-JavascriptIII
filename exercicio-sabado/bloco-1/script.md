@@ -31,21 +31,26 @@ for(x; x = 0; x+) {
 
 //---4. Deve exibir um alerta "oi gente" se o primeiro elemento for maior que o segundo
 
-if frases < palavras {
+if (frases > palavras) {
     alert("oi gente")
-} else if {
-    aler ("tchau gente")
+} else{
+    alert("tchau gente")
 }
 
 
 //---5. Deve exibir o valor da propriedade "sobrenome"
 
 
-let curso: {
-  nome = "Jardinagem";
-  periodo = "manha" ;
-  professora = "Amanda" {
-      sobrenome = "Lopes"
-  };
+const objeto = {
+  nome : "Jardinagem",
+  periodo : "manha" ,
+  professora : "Amanda",{sobrenome : Lopes"}
 }
-console.log(professora.sobrenome)
+console.log(objeto.professora.sobrenome)
+
+const objeto = {
+  nome : "Jardinagem",
+  periodo : "manha" ,
+  professora : "Amanda",{sobrenome : Lopes"},
+  cor : ["azul","amarelo", "vermelho"]
+}
